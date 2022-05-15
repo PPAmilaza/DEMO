@@ -1,0 +1,52 @@
+* Priority
+1.External,Internal
+2.Inline - 1000
+3.#id - 100
+4. .class - 10
+5. tag - 1
+6.Equal specificity?
+7.Universal selector and inherited?
+* Unit
+    - Absolute unit: px
+    - Relative unit: %( tuy vao kich thuoc the body )
+                    rem( phu thuoc vao the html )
+                    em( phu thuoc vao the cha gan nhat)
+                    vw( phu thuoc vao trinh duyet width)
+                    vh( phu thuoc vao trinh duyet hight)
+* CSS pseudo-class
+    :root
+    :hover
+    :active
+    :first-child
+    :last-child
+* CSS pseudo-elements
+    ::before
+    ::after
+    ::first-letter
+    ::first-line
+    ::selection
+
+padding-top: x%; // chieu rong bang x% chieu cao
+
+phan tich
+1. header
+2. slide
+3. content
+    - About
+    - Tickets
+    - Contact
+    - Map
+5. footer
+
+
+
+Xac dinh 
+    + Vi tri
+    + Kich thuoc
+    + Mau sac
+    + Kieu dang 
+
+Do float thi the div k chua het duoc nhunng div con cua no 
+Giai quyet:
+    + overflow: hidden;
+    + dat the div o cuoi va css clear: both;

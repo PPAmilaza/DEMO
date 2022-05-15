@@ -1,0 +1,219 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav , .subnav{
+    list-style-type: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+}
+
+
+
+#nav .subnav a{
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#header .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn{
+    float: right;
+    padding: 0px 21px;
+}
+
+#header .search-btn:hover{
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+#header .search-icon{
+    color: #fff;
+    line-height: 46px;
+    font-size: 20px;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background-image: url("/asess/img/slide/slide2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+#slider .text-heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#slider .text-des{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#content{
+
+}
+
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    opacity: 0.6;   /*do trong suot cua chu */
+    font-style: italic; /* in nghieng*/
+}
+
+#content .about-text {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify; /*can deu 2 ben*/
+    line-height: 1.4;
+}
+
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+/* Tour section */
+
+.tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-list .sold-out {
+
+}
+
+.tickets-list .quantity {
+
+}
+/* Footer section */
+#footer {
+
+}
